@@ -1,0 +1,15 @@
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\bin\Debug\net6.0\Hillel.exe
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\bin\Debug\net6.0\Hillel.deps.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\bin\Debug\net6.0\Hillel.runtimeconfig.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\bin\Debug\net6.0\Hillel.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\bin\Debug\net6.0\Hillel.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\obj\Debug\net6.0\Hillel.csproj.AssemblyReference.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\obj\Debug\net6.0\Hillel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\obj\Debug\net6.0\Hillel.AssemblyInfoInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\obj\Debug\net6.0\Hillel.AssemblyInfo.cs
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\obj\Debug\net6.0\Hillel.csproj.CoreCompileInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\obj\Debug\net6.0\Hillel.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\obj\Debug\net6.0\refint\Hillel.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\obj\Debug\net6.0\Hillel.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\obj\Debug\net6.0\Hillel.genruntimeconfig.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Hillel\obj\Debug\net6.0\ref\Hillel.dll

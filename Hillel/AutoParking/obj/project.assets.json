@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\Hillel\\Hillel.csproj",
-      "projectName": "Hillel",
-      "projectPath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\Hillel\\Hillel.csproj",
+      "projectUniqueName": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\AutoParking\\AutoParking.csproj",
+      "projectName": "AutoParking",
+      "projectPath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\AutoParking\\AutoParking.csproj",
       "packagesPath": "C:\\Users\\LocalAdmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\Hillel\\obj\\",
+      "outputPath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\AutoParking\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LocalAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",

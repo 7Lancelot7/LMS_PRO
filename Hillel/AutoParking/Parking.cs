@@ -1,34 +1,36 @@
 using System.Collections;
-using System.Linq.Expressions;
-using System.Threading.Channels;
 
 namespace Hillel;
 
-public class Parking:IEnumerable,IEnumerator
+public class Parking : IEnumerable, IEnumerator
 {
-
-    private class SecretTicket:Ticket
+    private class SecretTicket : Ticket
     {
-        public  Car car ;
-        public  string idCar;
+        public Car Car;
+        public string idCar;
         public DateTime? arrive_time;
-        public DateTime? departure_time;
+        public DateTime? departure_time = null;
         public int idPlace;
 
-        public SecretTicket(Car car, string idCar, DateTime? arriveTime,int idPlace)
+        public SecretTicket(Car car, string idCar, DateTime? arriveTime, int idPlace)
         {
-            this.car = car;
+            this.Car = car;
             this.idCar = idCar;
             arrive_time = arriveTime;
             this.idPlace = idPlace;
         }
     }
+
     private int freeplace;
 
+    public readonly string ParkingName;
+
+    public readonly string Adress;
+
     private int _currentPosition = -1;
-    
+
     private readonly int _capacity;
-    
+
     private Car[]? _carContainer;
 
     public Car this[int index]
@@ -39,6 +41,7 @@ public class Parking:IEnumerable,IEnumerator
             {
                 throw new IndexOutOfRangeException("Index out of range");
             }
+
             return _carContainer[index];
         }
         set
@@ -50,15 +53,18 @@ public class Parking:IEnumerable,IEnumerator
                 _carContainer[index] = value;
                 return;
             }
+
             throw new Exception("this place already taken ");
         }
     }
 
-    public Parking(int _capacity)
+    public Parking(int capacity, string parkingName, string adress)
     {
-        this._capacity = _capacity;
-        freeplace = _capacity;
-        this._carContainer = new Car[this._capacity];
+        Adress = adress;
+        ParkingName = parkingName;
+        _capacity = capacity;
+        freeplace = capacity;
+        _carContainer = new Car[this._capacity];
     }
 
     public Ticket Park(Car car)
@@ -73,26 +79,27 @@ public class Parking:IEnumerable,IEnumerator
             if (_carContainer[i] == null)
             {
                 var time = DateTime.Now;
-                Ticket ticket = new SecretTicket(car,car.Id_car,time,i);
+                Ticket ticket = new SecretTicket(car, car.IdCar, time, i);
                 _carContainer[i] = car;
-                car.arrive_time = time;
+                car.ArriveTime = time;
                 freeplace--;
                 return ticket;
             }
         }
+
         throw new Exception("No free place");
     }
 
-    
-    public Car Unpark(Ticket ticket=null)
+
+    public Car Unpark(Ticket ticket = null)
     {
         if (ticket == null)
         {
             throw new Exception("no ticket");
         }
-        
+
         var newticket = ticket as SecretTicket;
-        
+
         if (_carContainer[newticket.idPlace] == null)
         {
             throw new Exception("Your car is not here");
@@ -103,30 +110,43 @@ public class Parking:IEnumerable,IEnumerator
         newticket = null;
         return result;
     }
+
     public void ShowParking()
     {
-        var iter = 1;
-        Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=");
-        for (int i = 0; i < _capacity-freeplace;i++)
+        //Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=");
+        for (int i = 0; i < _capacity; i++)
         {
+            Console.WriteLine("-=-=-=-=-=-=-=-=-=-=-=");
             if (_carContainer[i] == null)
             {
-                continue;
+                Console.WriteLine($"Number of place is {i + 1}.****Free place****");
             }
-            Console.WriteLine($"Number of place is {iter++}. Car is {_carContainer[i].Brand},idNumber is {_carContainer[i].Id_car}");
+            else
+            {
+                Console.WriteLine(
+                    $"Number of place is {i + 1}. Car is {_carContainer[i].Brand},idNumber is {_carContainer[i].IdCar}");
+            }
         }
+    }
+
+    public void GetSetMessage()
+    {
+        Console.WriteLine("/-/-/-/-/-/-/-/-/-/-/-/");
+        Console.WriteLine($"Number of free places:{freeplace}");
+        Console.WriteLine($"Capacity of parking:{_capacity}");
+        Console.WriteLine("/-/-/-/-/-/-/-/-/-/-/-/");
     }
     public IEnumerator GetEnumerator()
     {
         return this as IEnumerator;
     }
-    
-    public bool MoveNext() => _currentPosition++<_capacity;
-    
+
+    public bool MoveNext() => _currentPosition++ < _capacity;
+
     public void Reset()
     {
         _currentPosition = -1;
     }
-    
-    public object Current =>_carContainer[_currentPosition]; 
+
+    public object Current => _carContainer[_currentPosition];
 }

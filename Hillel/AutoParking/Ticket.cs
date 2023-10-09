@@ -13,7 +13,7 @@ public class Ticket
     public Ticket(Car car,int idPlace)
     {
         brand = car.Brand;
-        idCar = car.Id_car;
+        idCar = car.IdCar;
         arrive_time = DateTime.Now;
         this.idPlace = idPlace;
     }

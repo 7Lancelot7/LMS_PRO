@@ -1,5 +1,8 @@
 namespace Hillel;
 
+/// <summary>
+/// Represents a color with red, green, blue, and opacity components.
+/// </summary>
 public struct Color
 {
     private byte _red;
@@ -10,7 +13,7 @@ public struct Color
     /// <summary>
     /// Gets or sets the red component of the color. The value should be between 0 and 255.
     /// </summary>
-    public byte R
+    public byte Red
     {
         get => _red;
 
@@ -20,7 +23,7 @@ public struct Color
     /// <summary>
     /// Gets or sets the green component of the color. The value should be between 0 and 255.
     /// </summary>
-    public byte G
+    public byte Green
     {
         get => _green;
 
@@ -30,7 +33,7 @@ public struct Color
     /// <summary>
     /// Gets or sets the blue component of the color. The value should be between 0 and 255.
     /// </summary>
-    public byte B
+    public byte Blue
     {
         get => _blue;
 
@@ -48,7 +51,7 @@ public struct Color
     }
 
     /// <summary>
-    /// Initializes a new instance of the Color struct with default values (R=0, G=0, B=0, Opacity=0).
+    /// Initializes a new instance of the Color struct with default values (Red=0, Green=0, Blue=0, Opacity=0).
     /// </summary>
     public Color()
     {
@@ -61,15 +64,27 @@ public struct Color
     /// <summary>
     /// Initializes a new instance of the Color struct with specified values for R, G, B, and Opacity.
     /// </summary>
-    /// <param name="r">Gets or sets the red component of the color. The value should be between 0 and 255.</param>
-    /// <param name="g">Gets or sets the green component of the color. The value should be between 0 and 255.</param>
-    /// <param name="b">Gets or sets the blue component of the color. The value should be between 0 and 255.</param>
-    /// <param name="o"></param>
-    public Color(byte r, byte g, byte b, byte o)
+    /// <param name="red">Gets or sets the red component of the color. The value should be between 0 and 255.</param>
+    /// <param name="green">Gets or sets the green component of the color. The value should be between 0 and 255.</param>
+    /// <param name="blue">Gets or sets the blue component of the color. The value should be between 0 and 255.</param>
+    /// <param name="opacity">Gets or sets the opacity component of the color. The value should be between 0 and 100.</param>
+    public Color(byte red, byte green, byte blue, byte opacity)
     {
-        _red = r;
-        _green = g;
-        _blue = b;
-        _opacity = o;
+        _red = red;
+        _green = green;
+        _blue = blue;
+        _opacity = opacity;
+    }
+
+    /// <summary>
+    /// Initializes a new instance of the Color struct with a specified opacity value and default red, green, and blue components.
+    /// </summary>
+    /// <param name="opacity">The opacity component of the color. The value should be between 0 and 255.</param>
+    public Color(byte opacity)
+    {
+        _red = default;
+        _green = default;
+        _blue = default;
+        _opacity = opacity;
     }
 }

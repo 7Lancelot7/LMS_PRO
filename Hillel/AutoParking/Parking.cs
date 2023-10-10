@@ -3,14 +3,14 @@ using System.Collections;
 namespace Hillel;
 
 /// <summary>
-/// Represents a parking lot with specified capacity, ParkingName, freeplace and address.
+/// Represents a parking lot with specified capacity, ParkingName, freeplaces and address.
 /// </summary>
 public class Parking
 {
     /// <summary>
     /// Number of free parking places.
     /// </summary>
-    private int freePlace;
+    private int _freePlaces;
 
     /// <summary>
     /// Name of the parking.
@@ -78,7 +78,7 @@ public class Parking
         Address = address;
         ParkingName = parkingName;
         _capacity = capacity;
-        freePlace = capacity;
+        _freePlaces = capacity;
         _carContainer = new Car[this._capacity];
     }
 
@@ -90,7 +90,7 @@ public class Parking
         Address = "address";
         ParkingName = "parkingName";
         _capacity = 10;
-        freePlace = 10;
+        _freePlaces = 10;
         _carContainer = new Car[this._capacity];
     }
 
@@ -101,7 +101,7 @@ public class Parking
     /// <exception cref="Exception">Thrown if there are no free parking places.</exception>
     public void Park(Car car)
     {
-        if (freePlace == 0)
+        if (_freePlaces == 0)
         {
             throw new Exception("No free place");
         }
@@ -114,7 +114,7 @@ public class Parking
 
                 _carContainer[i] = car;
                 car.ArriveTime = time;
-                freePlace--;
+                _freePlaces--;
                 return;
             }
         }
@@ -130,7 +130,7 @@ public class Parking
     /// <exception cref="Exception">Thrown if there are no free parking places or if the place is already taken.</exception>
     public void Park(Car car, int placeIndex)
     {
-        if (freePlace == 0)
+        if (_freePlaces == 0)
         {
             throw new Exception("No free place");
         }
@@ -140,7 +140,7 @@ public class Parking
             var time = DateTime.Now;
             _carContainer[placeIndex] = car;
             car.ArriveTime = time;
-            freePlace--;
+            _freePlaces--;
         }
         else
         {
@@ -245,7 +245,7 @@ public class Parking
     public void GetSetMessage()
     {
         Console.WriteLine("/-/-/-/-/-/-/-/-/-/-/-/");
-        Console.WriteLine($"Number of free places:{freePlace}");
+        Console.WriteLine($"Number of free places:{_freePlaces}");
         Console.WriteLine($"Capacity of parking:{_capacity}");
         Console.WriteLine("/-/-/-/-/-/-/-/-/-/-/-/");
     }

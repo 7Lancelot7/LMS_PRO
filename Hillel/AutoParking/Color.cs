@@ -2,9 +2,9 @@ namespace Hillel;
 
 public struct Color
 {
-    private byte _r;
-    private byte _g;
-    private byte _b;
+    private byte _red;
+    private byte _green;
+    private byte _blue;
     private byte _opacity;
 
     /// <summary>
@@ -12,95 +12,64 @@ public struct Color
     /// </summary>
     public byte R
     {
-        get => _r;
+        get => _red;
 
-        set
-        {
-            if (value < 0 || value > 255)
-            {
-                return;
-                // throw new Exception("no valid value for Color. Use only values between 0 a 255");
-            }
-
-            _r = value;
-        }
+        set => _red = value;
     }
-/// <summary>
-/// Gets or sets the green component of the color. The value should be between 0 and 255.
-/// </summary>
+
+    /// <summary>
+    /// Gets or sets the green component of the color. The value should be between 0 and 255.
+    /// </summary>
     public byte G
     {
-        get => _g;
+        get => _green;
 
-        set
-        {
-            if (value < 0 || value > 255)
-            {
-                return;
-                // throw new Exception("no valid value for Color. Use only values between 0 a 255");
-            }
-
-            _g = value;
-        }
+        set => _green = value;
     }
-/// <summary>
-/// Gets or sets the blue component of the color. The value should be between 0 and 255.
-/// </summary>
+
+    /// <summary>
+    /// Gets or sets the blue component of the color. The value should be between 0 and 255.
+    /// </summary>
     public byte B
     {
-        get => _b;
+        get => _blue;
 
-        set
-        {
-            if (value < 0 || value > 255)
-            {
-                return;
-                // throw new Exception("no valid value for Color. Use only values between 0 a 255");
-            }
-
-            _b = value;
-        }
+        set => _blue = value;
     }
-/// <summary>
-/// Gets or sets the opacity of the color. The value should be between 0 and 255.
-/// </summary>
-    public byte opacity
+
+    /// <summary>
+    /// Gets or sets the opacity of the color. The value should be between 0 and 255.
+    /// </summary>
+    public byte Opacity
     {
-        get => opacity;
+        get => _opacity;
 
-        set
-        {
-            if (value < 0 || value > 255)
-            {
-                return;
-                //throw new Exception("no valid value for Color. Use only values between 0 a 255");
-            }
-
-            opacity = value;
-        }
+        set => _opacity = value;
     }
-/// <summary>
-/// Initializes a new instance of the Color struct with default values (R=0, G=0, B=0, Opacity=0).
-/// </summary>
+
+    /// <summary>
+    /// Initializes a new instance of the Color struct with default values (R=0, G=0, B=0, Opacity=0).
+    /// </summary>
     public Color()
     {
-        _r = 0;
-        _g = 0;
-        _b = 0;
+        _red = 0;
+        _green = 0;
+        _blue = 0;
         _opacity = 0;
     }
-/// <summary>
-/// Initializes a new instance of the Color struct with specified values for R, G, B, and Opacity.
-/// </summary>
-/// <param name="r">Gets or sets the red component of the color. The value should be between 0 and 255.</param>
-/// <param name="g">Gets or sets the green component of the color. The value should be between 0 and 255.</param>
-/// <param name="b">Gets or sets the blue component of the color. The value should be between 0 and 255.</param>
-/// <param name="o"></param>
+
+    /// <summary>
+    /// Initializes a new instance of the Color struct with specified values for R, G, B, and Opacity.
+    /// </summary>
+    /// <param name="r">Gets or sets the red component of the color. The value should be between 0 and 255.</param>
+    /// <param name="g">Gets or sets the green component of the color. The value should be between 0 and 255.</param>
+    /// <param name="b">Gets or sets the blue component of the color. The value should be between 0 and 255.</param>
+    /// <param name="o"></param>
     public Color(byte r, byte g, byte b, byte o)
     {
-        _r = r;
-        _g = g;
-        _b = b;
+        _red = r;
+        _green = g;
+        _blue = b;
         _opacity = o;
     }
 }

@@ -2,32 +2,15 @@ using System.Collections;
 
 namespace Hillel;
 
-public class Parking : IEnumerable, IEnumerator
+public class Parking
 {
-    private class SecretTicket : Ticket
-    {
-        public Car Car;
-        public string idCar;
-        public DateTime? arrive_time;
-        public DateTime? departure_time = null;
-        public int idPlace;
-
-        public SecretTicket(Car car, string idCar, DateTime? arriveTime, int idPlace)
-        {
-            this.Car = car;
-            this.idCar = idCar;
-            arrive_time = arriveTime;
-            this.idPlace = idPlace;
-        }
-    }
-
     private int freeplace;
 
     public readonly string ParkingName;
 
-    public readonly string Adress;
+    public readonly string Address;
 
-    private int _currentPosition = -1;
+   
 
     private readonly int _capacity;
 
@@ -37,7 +20,7 @@ public class Parking : IEnumerable, IEnumerator
     {
         get
         {
-            if (index < 0 || index >= _currentPosition)
+            if (index < 0 || index >= _capacity)
             {
                 throw new IndexOutOfRangeException("Index out of range");
             }
@@ -47,7 +30,10 @@ public class Parking : IEnumerable, IEnumerator
         set
         {
             if (index < 0 || index >= _capacity)
+            {
                 throw new IndexOutOfRangeException("Index out of range");
+            }
+
             if (_carContainer[index] == null)
             {
                 _carContainer[index] = value;
@@ -58,16 +44,16 @@ public class Parking : IEnumerable, IEnumerator
         }
     }
 
-    public Parking(int capacity, string parkingName, string adress)
+    public Parking(int capacity, string parkingName, string address)
     {
-        Adress = adress;
+        Address = address;
         ParkingName = parkingName;
         _capacity = capacity;
         freeplace = capacity;
         _carContainer = new Car[this._capacity];
     }
 
-    public Ticket Park(Car car)
+    public void Park(Car car)
     {
         if (freeplace == 0)
         {
@@ -79,11 +65,11 @@ public class Parking : IEnumerable, IEnumerator
             if (_carContainer[i] == null)
             {
                 var time = DateTime.Now;
-                Ticket ticket = new SecretTicket(car, car.IdCar, time, i);
+
                 _carContainer[i] = car;
                 car.ArriveTime = time;
                 freeplace--;
-                return ticket;
+                return;
             }
         }
 
@@ -91,24 +77,28 @@ public class Parking : IEnumerable, IEnumerator
     }
 
 
-    public Car Unpark(Ticket ticket = null)
+    public Car UnPark(Car car)
     {
-        if (ticket == null)
+        if (car == null)
         {
-            throw new Exception("no ticket");
+            throw new Exception("no valid value");
         }
 
-        var newticket = ticket as SecretTicket;
-
-        if (_carContainer[newticket.idPlace] == null)
+        for (int i = 0; i < _capacity; i++)
         {
-            throw new Exception("Your car is not here");
-        }
+            if (_carContainer[i] == null)
+            {
+                continue;
+            }
 
-        var result = _carContainer[newticket.idPlace];
-        _carContainer[newticket.idPlace] = null;
-        newticket = null;
-        return result;
+            if (_carContainer[i].IdCar == car.IdCar && _carContainer[i].Brand == car.Brand)
+            {
+                var result = _carContainer[i];
+                _carContainer[i] = null;
+                return result;
+            }
+        }
+        throw new Exception("Your car is not here");
     }
 
     public void ShowParking()
@@ -136,17 +126,4 @@ public class Parking : IEnumerable, IEnumerator
         Console.WriteLine($"Capacity of parking:{_capacity}");
         Console.WriteLine("/-/-/-/-/-/-/-/-/-/-/-/");
     }
-    public IEnumerator GetEnumerator()
-    {
-        return this as IEnumerator;
-    }
-
-    public bool MoveNext() => _currentPosition++ < _capacity;
-
-    public void Reset()
-    {
-        _currentPosition = -1;
-    }
-
-    public object Current => _carContainer[_currentPosition];
 }

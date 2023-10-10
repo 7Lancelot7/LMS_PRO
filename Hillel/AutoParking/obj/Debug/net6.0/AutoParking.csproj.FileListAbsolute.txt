@@ -1,0 +1,15 @@
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\bin\Debug\net6.0\AutoParking.exe
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\bin\Debug\net6.0\AutoParking.deps.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\bin\Debug\net6.0\AutoParking.runtimeconfig.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\bin\Debug\net6.0\AutoParking.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\bin\Debug\net6.0\AutoParking.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\obj\Debug\net6.0\AutoParking.csproj.AssemblyReference.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\obj\Debug\net6.0\AutoParking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\obj\Debug\net6.0\AutoParking.AssemblyInfoInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\obj\Debug\net6.0\AutoParking.AssemblyInfo.cs
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\obj\Debug\net6.0\AutoParking.csproj.CoreCompileInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\obj\Debug\net6.0\AutoParking.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\obj\Debug\net6.0\refint\AutoParking.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\obj\Debug\net6.0\AutoParking.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\obj\Debug\net6.0\AutoParking.genruntimeconfig.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AutoParking\obj\Debug\net6.0\ref\AutoParking.dll

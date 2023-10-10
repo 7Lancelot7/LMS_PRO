@@ -12,24 +12,21 @@
             Color color3 = new Color((byte)random.Next(0, 256), (byte)random.Next(0, 256), (byte)random.Next(0, 256),
                 (byte)random.Next(0, 256));
             
-            Car lexus = new Car("Lexus", "LS", "AX7777AX", color1);
-            Car bmv = new Car("BMW", "528", "AX1111GG", color2);
-            Car mersedes = new Car("Mersedes", "E53", "AX1234YY", color3);
+            Car lexus = new Car("Lexus", "LS", 7777, color1);
+            Car bmv = new Car("BMW", "528", 1111, color2);
+            Car mercedes = new Car("Mercedes", "E53", 1234, color3);
+         
             
             Parking parking = new Parking(5, "Nikolskyi", "Kharkiv,Ukraine");
-            List<Ticket> listOfTickets = new List<Ticket>();
+           
             
-            var object1 = parking.Park(lexus);
-            listOfTickets.Add(object1);
-            
-            var object2 = parking.Park(bmv);
-            listOfTickets.Add(object2);
-            
-            var object3 = parking.Park(mersedes);
-            listOfTickets.Add(object3);
+            parking.Park(lexus);
+            parking.Park(bmv);
+            parking.Park(mercedes);
+           
             
             parking.ShowParking();
-            // parking.Unpark(listOfTickets[0]);
+            // parking.UnPark(listOfTickets[0]);
             // parking.ShowParking();
             
             parking.GetSetMessage();

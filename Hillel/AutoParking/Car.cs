@@ -2,7 +2,7 @@ namespace Hillel;
 
 public class Car
 {
-    public Car(string brand, string model, string idCar, Color color)
+    public Car(string brand, string model, int idCar, Color color)
     {
         Brand = brand;
         Model = model;
@@ -14,7 +14,7 @@ public class Car
 
     public string Model { get; init; }
 
-    public string? IdCar { get; init; }
+    public int IdCar { get; init; }
 
     public DateTime ArriveTime { get; set; }
 
@@ -24,7 +24,7 @@ public class Car
 
     public void SetNewColor()
     {
-        Random random = new Random();
+        var random = new Random();
         color.R = (byte)random.Next(0, 256);
         color.G = (byte)random.Next(0, 256);
         color.B = (byte)random.Next(0, 256);

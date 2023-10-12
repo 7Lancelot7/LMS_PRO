@@ -80,11 +80,8 @@ public struct Color
     /// Initializes a new instance of the Color struct with a specified opacity value and default red, green, and blue components.
     /// </summary>
     /// <param name="opacity">The opacity component of the color. The value should be between 0 and 255.</param>
-    public Color(byte opacity)
+    public Color(byte opacity):this()
     {
-        _red = default;
-        _green = default;
-        _blue = default;
         _opacity = opacity;
     }
 }

@@ -5,7 +5,7 @@ namespace Hillel;
 /// <summary>
 /// Represents a parking lot with specified capacity, ParkingName, freeplaces and address.
 /// </summary>
-public class Parking
+public class Parking: IDisposable
 {
     /// <summary>
     /// Number of free parking places.
@@ -31,7 +31,7 @@ public class Parking
     /// <summary>
     /// Container for cars parked in the parking.
     /// </summary>
-    private Car[]? _carContainer;
+    private List<Car>? _carContainer;
 
     /// <summary>
     /// Gets or sets the car at the specified index in the parking.
@@ -39,7 +39,15 @@ public class Parking
     /// <param name="index">The index of the parking space.</param>
     /// <exception cref="IndexOutOfRangeException">Thrown if the index is out of range.</exception>
     /// <exception cref="Exception">Thrown if the parking space is already occupied.</exception>
-    public Car this[int index]
+    private void InitParking()
+    {
+        for (int i = 0; i < _capacity; i++)
+        {
+            _carContainer.Add(null);
+        }
+    }
+
+public Car this[int index]
     {
         get
         {
@@ -47,7 +55,7 @@ public class Parking
             {
                 throw new IndexOutOfRangeException("Index out of range");
             }
-
+    
             return _carContainer[index];
         }
         set
@@ -56,13 +64,13 @@ public class Parking
             {
                 throw new IndexOutOfRangeException("Index out of range");
             }
-
+    
             if (_carContainer[index] == null)
             {
                 _carContainer[index] = value;
                 return;
             }
-
+    
             throw new Exception("this place already taken ");
         }
     }
@@ -79,7 +87,8 @@ public class Parking
         ParkingName = parkingName;
         _capacity = capacity;
         _freePlaces = capacity;
-        _carContainer = new Car[this._capacity];
+        _carContainer = new List<Car>(this._capacity);
+        InitParking();
     }
 
     /// <summary>
@@ -91,7 +100,8 @@ public class Parking
         ParkingName = "parkingName";
         _capacity = 10;
         _freePlaces = 10;
-        _carContainer = new Car[this._capacity];
+        _carContainer = new List<Car>(this._capacity);
+        InitParking();
     }
 
     /// <summary>
@@ -112,7 +122,7 @@ public class Parking
             {
                 var time = DateTime.Now;
 
-                _carContainer[i] = car;
+                _carContainer.Insert(i,car);
                 car.ArriveTime = time;
                 _freePlaces--;
                 return;
@@ -138,7 +148,7 @@ public class Parking
         if (_carContainer[placeIndex] == null)
         {
             var time = DateTime.Now;
-            _carContainer[placeIndex] = car;
+            _carContainer.Insert(placeIndex,car);
             car.ArriveTime = time;
             _freePlaces--;
         }
@@ -248,5 +258,15 @@ public class Parking
         Console.WriteLine($"Number of free places:{_freePlaces}");
         Console.WriteLine($"Capacity of parking:{_capacity}");
         Console.WriteLine("/-/-/-/-/-/-/-/-/-/-/-/");
+    }
+
+    public void Dispose()
+    {
+        for (int i = 0; i < _capacity; i++)
+        {
+            _carContainer[i] = null;
+        }
+
+        _carContainer = null;
     }
 }

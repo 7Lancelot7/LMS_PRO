@@ -16,8 +16,8 @@ public class Car
     {
         Brand = brand;
         Model = model;
-        this.Color = color;
-        this.IdCar = idCar;
+        Color = color;
+        IdCar = idCar;
     }
 
     /// <summary>
@@ -30,8 +30,8 @@ public class Car
     {
         Brand = brand;
         Model = model;
-        this.Color = new Color();
-        this.IdCar = idCar;
+        Color = new Color();
+        IdCar = idCar;
     }
 
     /// <summary>
@@ -43,8 +43,8 @@ public class Car
     {
         Brand = brand;
         Model = "Tesla";
-        this.Color = new Color();
-        this.IdCar = idCar;
+        Color = new Color();
+        IdCar = idCar;
     }
 
     /// <summary>

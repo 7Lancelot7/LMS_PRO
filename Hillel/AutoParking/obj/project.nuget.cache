@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "cplHybT7XRCLPuyxn91Ywkyl5cJC9Qo8YnV5mikJmc9uUz1NzXHr84OAbsYj0DK3Oh8hsX1t6W7P0uSdauA7Dg==",
+  "dgSpecHash": "9lquTL0E07Gs2gCJBfcSZtuzSwFkyLZPTjmxnMA3mJ9gDXNyR/yUDa3poOcjflGkWQCVRrJKPdP0zqD3vRAavw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\AutoParking\\AutoParking.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vrata\\Desktop\\hillel\\LMS_PRO\\Hillel\\AutoParking\\AutoParking.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoParking", "AutoParking\AutoParking.csproj", "{E081BF58-7C4F-4895-8DD8-674531B5A03B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceBetweenPoints", "DistanceBetweenPoints\DistanceBetweenPoints.csproj", "{167FBB9E-8936-452D-9D9C-1C74A7C6B084}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{E081BF58-7C4F-4895-8DD8-674531B5A03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E081BF58-7C4F-4895-8DD8-674531B5A03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E081BF58-7C4F-4895-8DD8-674531B5A03B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{167FBB9E-8936-452D-9D9C-1C74A7C6B084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{167FBB9E-8936-452D-9D9C-1C74A7C6B084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{167FBB9E-8936-452D-9D9C-1C74A7C6B084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{167FBB9E-8936-452D-9D9C-1C74A7C6B084}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

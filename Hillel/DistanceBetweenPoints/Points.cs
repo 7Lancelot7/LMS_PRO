@@ -19,7 +19,7 @@ public class Point
     /// <summary>
     /// Gets the total number of Point objects created.
     /// </summary>
-    public static int NumberOfPoints;
+    public static int NumberOfPoints{get; private set; }
 
     /// <summary>
     /// Initializes a new instance of the Point class with the specified coordinates.

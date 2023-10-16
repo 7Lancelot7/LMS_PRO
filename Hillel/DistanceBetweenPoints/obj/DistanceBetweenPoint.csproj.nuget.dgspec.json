@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\AutoParking\\AutoParking.csproj": {}
+    "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\DistanceBetweenPoint\\DistanceBetweenPoint.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\AutoParking\\AutoParking.csproj": {
+    "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\DistanceBetweenPoint\\DistanceBetweenPoint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\AutoParking\\AutoParking.csproj",
-        "projectName": "AutoParking",
-        "projectPath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\AutoParking\\AutoParking.csproj",
+        "projectUniqueName": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\DistanceBetweenPoint\\DistanceBetweenPoint.csproj",
+        "projectName": "DistanceBetweenPoint",
+        "projectPath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\DistanceBetweenPoint\\DistanceBetweenPoint.csproj",
         "packagesPath": "C:\\Users\\LocalAdmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\AutoParking\\obj\\",
+        "outputPath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\DistanceBetweenPoint\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LocalAdmin\\AppData\\Roaming\\NuGet\\NuGet.Config",

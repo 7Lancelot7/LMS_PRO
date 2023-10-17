@@ -1,16 +1,27 @@
-namespace Animals.Bird;
-
-public class Owl:Bird
+namespace Animals.Bird
 {
-    
-    public override void Speak()
+    /// <summary>
+    /// Represents an Owl, a type of Bird.
+    /// </summary>
+    public class Owl : Bird
     {
-        Console.WriteLine("Hooting...");
-    }
+        /// <summary>
+        /// Makes the owl produce its characteristic sound - hooting.
+        /// </summary>
+        public override void Speak()
+        {
+            Console.WriteLine("Hooting...");
+        }
 
-    public Owl(string name, int age)
-    {
-        Name = name;
-        Age = age;
+        /// <summary>
+        /// Creates a new instance of Owl with specified name and age.
+        /// </summary>
+        /// <param name="name">The name of the owl.</param>
+        /// <param name="age">The age of the owl.</param>
+        public Owl(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
     }
 }

@@ -1,13 +1,25 @@
-namespace Animals.Fish;
-
-public class Shark:Fish
+namespace Animals.Fish
 {
-    public override void Move()
+    /// <summary>
+    /// Represents a Shark, a type of Fish.
+    /// </summary>
+    public class Shark : Fish
     {
-        Console.WriteLine("Hunting...");
-    }
+        /// <summary>
+        /// Makes the shark move by hunting.
+        /// </summary>
+        public override void Move()
+        {
+            Console.WriteLine("Hunting...");
+        }
 
-    public Shark(string name, int age) : base(name, age)
-    {
+        /// <summary>
+        /// Creates a new instance of Shark with specified name and age.
+        /// </summary>
+        /// <param name="name">The name of the shark.</param>
+        /// <param name="age">The age of the shark.</param>
+        public Shark(string name, int age) : base(name, age)
+        {
+        }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\obj\Debug\net6.0\Animals.csproj.AssemblyReference.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\obj\Debug\net6.0\Animals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\obj\Debug\net6.0\Animals.AssemblyInfoInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\obj\Debug\net6.0\Animals.AssemblyInfo.cs
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\obj\Debug\net6.0\Animals.csproj.CoreCompileInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\bin\Debug\net6.0\Animals.exe
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\bin\Debug\net6.0\Animals.deps.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\bin\Debug\net6.0\Animals.runtimeconfig.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\bin\Debug\net6.0\Animals.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\bin\Debug\net6.0\Animals.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\obj\Debug\net6.0\Animals.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\obj\Debug\net6.0\refint\Animals.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\obj\Debug\net6.0\Animals.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\obj\Debug\net6.0\Animals.genruntimeconfig.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\Animals\obj\Debug\net6.0\ref\Animals.dll

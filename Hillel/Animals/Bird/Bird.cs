@@ -1,24 +1,42 @@
-namespace Animals.Bird;
-
-public class Bird:Animal
+namespace Animals.Bird
 {
-    public sealed override void Move()
+    /// <summary>
+    /// Represents a Bird, a type of Animal.
+    /// </summary>
+    public class Bird : Animal
     {
-        Console.WriteLine("Flying...");
-    }
+        /// <summary>
+        /// Makes the bird move by flying.
+        /// </summary>
+        public sealed override void Move()
+        {
+            Console.WriteLine("Flying...");
+        }
 
-    public override void Speak()
-    {
-        Console.WriteLine("Tweeting...");
-    }
+        /// <summary>
+        /// Makes the bird produce its characteristic sound - tweeting.
+        /// </summary>
+        public override void Speak()
+        {
+            Console.WriteLine("Tweeting...");
+        }
 
-    protected Bird()
-    {
-    }
+        /// <summary>
+        /// Default constructor for the Bird class.
+        /// </summary>
+        protected Bird()
+        {
+        }
 
-    public Bird(string name, int age)
-    {
-        Name = name;
-        Age = age;
+        /// <summary>
+        /// Constructor for the Bird class with specified name and age.
+        /// </summary>
+        /// <param name="name">The name of the bird.</param>
+        /// <param name="age">The age of the bird.</param>
+        public Bird(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
     }
 }

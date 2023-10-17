@@ -39,13 +39,7 @@ public class Parking: IDisposable
     /// <param name="index">The index of the parking space.</param>
     /// <exception cref="IndexOutOfRangeException">Thrown if the index is out of range.</exception>
     /// <exception cref="Exception">Thrown if the parking space is already occupied.</exception>
-    private void InitParking()
-    {
-        for (int i = 0; i < _capacity; i++)
-        {
-            _carContainer.Add(null);
-        }
-    }
+    
 
 public Car this[int index]
     {
@@ -88,7 +82,6 @@ public Car this[int index]
         _capacity = capacity;
         _freePlaces = capacity;
         _carContainer = new List<Car>(this._capacity);
-        InitParking();
     }
 
     /// <summary>
@@ -101,9 +94,9 @@ public Car this[int index]
         _capacity = 10;
         _freePlaces = 10;
         _carContainer = new List<Car>(this._capacity);
-        InitParking();
+        _freePlaces++;
     }
-
+    
     /// <summary>
     /// Parks a car in the parking lot.
     /// </summary>
@@ -114,11 +107,13 @@ public Car this[int index]
         if (_freePlaces == 0)
         {
             throw new Exception("No free place");
+            
         }
 
+        
         for (int i = 0; i < _capacity; i++)
         {
-            if (_carContainer[i] == null)
+            if (_carContainer[i] is null)
             {
                 var time = DateTime.Now;
 
@@ -211,7 +206,7 @@ public Car this[int index]
     /// <param name="placeIndex">The index of the parking place.</param>
     /// <returns>The unparked car.</returns>
     /// <exception cref="Exception">Thrown if there is no car in the specified place.</exception>
-    public void ShowParking()
+    public void ShowParking() 
     {
         for (int i = 0; i < _capacity; i++)
         {
@@ -262,11 +257,6 @@ public Car this[int index]
 
     public void Dispose()
     {
-        for (int i = 0; i < _capacity; i++)
-        {
-            _carContainer[i] = null;
-        }
-
         _carContainer = null;
     }
 }

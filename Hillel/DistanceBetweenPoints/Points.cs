@@ -1,3 +1,5 @@
+using System.Linq.Expressions;
+
 namespace DistanceBetweenPoints;
 
 public class Point
@@ -33,13 +35,13 @@ public class Point
         NumberOfPoints++;
         Id = NumberOfPoints;
     }
-   
+    
     /// <summary>
     /// Calculates the distance between two points.
     /// </summary>
     /// <param name="a">The first point.</param>
     /// <param name="b">The second point.</param>
-    /// <returns>The distance between the two points.</returns>
+    /// <returns>The distance between the two points.</returns
     public static double GetDistanceBetweenPoints(Point a, Point b)
     {
         return Math.Round(Math.Sqrt(Math.Pow(b.X - a.X, 2) + Math.Pow(b.Y - a.Y, 2)), 4);

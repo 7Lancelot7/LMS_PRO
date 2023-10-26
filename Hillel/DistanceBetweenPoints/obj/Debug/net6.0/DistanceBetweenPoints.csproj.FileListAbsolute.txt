@@ -1,0 +1,15 @@
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\bin\Debug\net6.0\DistanceBetweenPoints.exe
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\bin\Debug\net6.0\DistanceBetweenPoints.deps.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\bin\Debug\net6.0\DistanceBetweenPoints.runtimeconfig.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\bin\Debug\net6.0\DistanceBetweenPoints.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\bin\Debug\net6.0\DistanceBetweenPoints.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\obj\Debug\net6.0\DistanceBetweenPoints.csproj.AssemblyReference.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\obj\Debug\net6.0\DistanceBetweenPoints.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\obj\Debug\net6.0\DistanceBetweenPoints.AssemblyInfoInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\obj\Debug\net6.0\DistanceBetweenPoints.AssemblyInfo.cs
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\obj\Debug\net6.0\DistanceBetweenPoints.csproj.CoreCompileInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\obj\Debug\net6.0\DistanceBetweenPoints.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\obj\Debug\net6.0\refint\DistanceBetweenPoints.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\obj\Debug\net6.0\DistanceBetweenPoints.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\obj\Debug\net6.0\DistanceBetweenPoints.genruntimeconfig.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\DistanceBetweenPoints\obj\Debug\net6.0\ref\DistanceBetweenPoints.dll

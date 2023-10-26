@@ -1,0 +1,14 @@
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\ExchangeRates\bin\Debug\net6.0\ExchangeRates.exe
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\ExchangeRates\bin\Debug\net6.0\ExchangeRates.deps.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\ExchangeRates\bin\Debug\net6.0\ExchangeRates.runtimeconfig.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\ExchangeRates\bin\Debug\net6.0\ExchangeRates.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\ExchangeRates\bin\Debug\net6.0\ExchangeRates.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\ExchangeRates\obj\Debug\net6.0\ExchangeRates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\ExchangeRates\obj\Debug\net6.0\ExchangeRates.AssemblyInfoInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\ExchangeRates\obj\Debug\net6.0\ExchangeRates.AssemblyInfo.cs
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\ExchangeRates\obj\Debug\net6.0\ExchangeRates.csproj.CoreCompileInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\ExchangeRates\obj\Debug\net6.0\ExchangeRates.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\ExchangeRates\obj\Debug\net6.0\refint\ExchangeRates.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\ExchangeRates\obj\Debug\net6.0\ExchangeRates.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\ExchangeRates\obj\Debug\net6.0\ExchangeRates.genruntimeconfig.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\ExchangeRates\obj\Debug\net6.0\ref\ExchangeRates.dll

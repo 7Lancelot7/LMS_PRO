@@ -30,6 +30,5 @@ class Program
         AddMilk(cup);
         AddSugar(cup);
         cup.Stir();
-
     }
 }

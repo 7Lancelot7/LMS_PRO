@@ -2,7 +2,7 @@ using System.Collections.Specialized;
 
 namespace ExchangeRates;
 
-//when we work with money better use DECIMAL because this type is mort accurate.
+
 public class ExchangeRates<T> where T : struct
 {
     
@@ -49,8 +49,7 @@ public class ExchangeRates<T> where T : struct
     }
 
     private void showHistory(int index)
-    {// i dont want to get a LIST of keys from dictionary. I would like to get a "Key" by using indexers but i dont know how to realize it. Can we discuss about it on lesson?
-        // i tried to use it "_exchageContainer[(Currency)i]" but console depict me my "KeyValue" and its correct so i dont know how to get a "Key"
+    {
         var KeysList = _exchageContainer.Keys.ToList();
         Console.Write(
             $"{KeysList[index]} current rate : {_exchageContainer[(Currency)index][0]}\n");

@@ -1,0 +1,15 @@
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\bin\Debug\net6.0\RetirementCalculation.exe
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\bin\Debug\net6.0\RetirementCalculation.deps.json
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\bin\Debug\net6.0\RetirementCalculation.runtimeconfig.json
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\bin\Debug\net6.0\RetirementCalculation.dll
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\bin\Debug\net6.0\RetirementCalculation.pdb
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\obj\Debug\net6.0\RetirementCalculation.csproj.AssemblyReference.cache
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\obj\Debug\net6.0\RetirementCalculation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\obj\Debug\net6.0\RetirementCalculation.AssemblyInfoInputs.cache
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\obj\Debug\net6.0\RetirementCalculation.AssemblyInfo.cs
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\obj\Debug\net6.0\RetirementCalculation.csproj.CoreCompileInputs.cache
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\obj\Debug\net6.0\RetirementCalculation.dll
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\obj\Debug\net6.0\refint\RetirementCalculation.dll
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\obj\Debug\net6.0\RetirementCalculation.pdb
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\obj\Debug\net6.0\RetirementCalculation.genruntimeconfig.cache
+C:\Users\vrata\Desktop\hillel\LMS_PRO\Hillel\RetirementCalculation\obj\Debug\net6.0\ref\RetirementCalculation.dll

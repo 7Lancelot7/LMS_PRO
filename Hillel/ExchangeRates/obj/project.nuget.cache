@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "JM6USdvgdIDBFxTdGLtdY0RQ8I4+eEuEdE3OBCqhZK5CH69KRqgAkU6FvmbRrWgqf8NfZo+iKTzscGWoPhNpzQ==",
+  "dgSpecHash": "mIa6XHNaITlKTuMd5qZHvoZMlYygyzQF2K1YtPiHXGYUkRONzymFa9wAgiyGi5ZuwMA5a/VzyDaw1cHUnD1Fbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\ExchangeRates\\ExchangeRates.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vrata\\Desktop\\hillel\\LMS_PRO\\Hillel\\ExchangeRates\\ExchangeRates.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

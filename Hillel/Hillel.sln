@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingCoffeeMachine", "Ven
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRates", "ExchangeRates\ExchangeRates.csproj", "{AA5F09E9-74E2-4AC6-A844-C67FD4F8A2A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetirementCalculation", "RetirementCalculation\RetirementCalculation.csproj", "{17B18C79-4D90-4A77-ADA9-A748F3B884FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{AA5F09E9-74E2-4AC6-A844-C67FD4F8A2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA5F09E9-74E2-4AC6-A844-C67FD4F8A2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA5F09E9-74E2-4AC6-A844-C67FD4F8A2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B18C79-4D90-4A77-ADA9-A748F3B884FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B18C79-4D90-4A77-ADA9-A748F3B884FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B18C79-4D90-4A77-ADA9-A748F3B884FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B18C79-4D90-4A77-ADA9-A748F3B884FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

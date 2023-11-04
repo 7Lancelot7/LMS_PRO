@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zvROETBmssSeXlnNJf+SdArXAGF3XyT+RklRRRviS2TOjbigJts22DAyI0lwYY0P9u4cd+w/9c/GNRBwJZBuOg==",
+  "dgSpecHash": "ahxQbHCCq4suVP8q97Rz8DNACI+CrAp8jAGJrN+N2sJkVmZvey+Ub/ejktBwiV7DTyNuMaR6Akhi3bNJE6DXgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vrata\\Desktop\\hillel\\LMS_PRO\\Hillel\\VendingCoffeeMachine\\VendingCoffeeMachine.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\VendingCoffeeMachine\\VendingCoffeeMachine.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

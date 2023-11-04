@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using VendingCoffeeMachine;
 using VendingCoffeeMachine.Contracts;
 
@@ -30,5 +31,6 @@ class Program
         AddMilk(cup);
         AddSugar(cup);
         cup.Stir();
+       
     }
 }

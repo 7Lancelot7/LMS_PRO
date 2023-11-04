@@ -12,6 +12,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRates", "ExchangeRa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetirementCalculation", "RetirementCalculation\RetirementCalculation.csproj", "{17B18C79-4D90-4A77-ADA9-A748F3B884FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalsFeeding", "AnimalsFeeding\AnimalsFeeding.csproj", "{C0BFC663-EA2B-45BA-B527-7E6C4093E623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{66D7DFD1-FB9F-4677-AC83-2AF156562F53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{366C5FA8-64B8-464F-8BE9-8FED9F6C47B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +48,16 @@ Global
 		{17B18C79-4D90-4A77-ADA9-A748F3B884FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17B18C79-4D90-4A77-ADA9-A748F3B884FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17B18C79-4D90-4A77-ADA9-A748F3B884FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0BFC663-EA2B-45BA-B527-7E6C4093E623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BFC663-EA2B-45BA-B527-7E6C4093E623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BFC663-EA2B-45BA-B527-7E6C4093E623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BFC663-EA2B-45BA-B527-7E6C4093E623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D7DFD1-FB9F-4677-AC83-2AF156562F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D7DFD1-FB9F-4677-AC83-2AF156562F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D7DFD1-FB9F-4677-AC83-2AF156562F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D7DFD1-FB9F-4677-AC83-2AF156562F53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66D7DFD1-FB9F-4677-AC83-2AF156562F53} = {366C5FA8-64B8-464F-8BE9-8FED9F6C47B9}
 	EndGlobalSection
 EndGlobal

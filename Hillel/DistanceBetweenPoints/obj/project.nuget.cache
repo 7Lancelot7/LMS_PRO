@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Hx3pbIXj7Gp5U2hunMazHEb+lR8y6pRLTOPrdvyvaFTrtXUcwCa+By2TI1sAfLhCe7JQZu9KsWuOB66HVXpiw==",
+  "dgSpecHash": "6vyRdZhjeYDT7mJ1GDs78GsGIh35Yra6GdlWahpzTW5FLz2GBBPzZCzz7ndhZkAvhcJ5u+jdARqVLgPMAOSD7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vrata\\Desktop\\hillel\\LMS_PRO\\Hillel\\DistanceBetweenPoints\\DistanceBetweenPoints.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
-    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\DistanceBetweenPoints\\DistanceBetweenPoints.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

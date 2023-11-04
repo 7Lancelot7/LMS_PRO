@@ -16,8 +16,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalsFeeding", "AnimalsFe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{66D7DFD1-FB9F-4677-AC83-2AF156562F53}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{366C5FA8-64B8-464F-8BE9-8FED9F6C47B9}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +56,5 @@ Global
 		{66D7DFD1-FB9F-4677-AC83-2AF156562F53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{66D7DFD1-FB9F-4677-AC83-2AF156562F53} = {366C5FA8-64B8-464F-8BE9-8FED9F6C47B9}
 	EndGlobalSection
 EndGlobal

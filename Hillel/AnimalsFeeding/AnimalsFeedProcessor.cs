@@ -1,7 +1,9 @@
 namespace AnimalFeeding;
 
-public class AnimalsFeedProcessor
+public class AnimalsFeedProcessor:IDisposable
 {
+    
+
     private List<AnimalPlace> aviary;
 
     public AnimalsFeedProcessor()
@@ -12,6 +14,7 @@ public class AnimalsFeedProcessor
     public void AddNewAnimalPlace(AnimalPlace place)
     {
         aviary.Add(place);
+        place.FoodFinished += HandleFoodFinished;
     }
 
     public void FeedAll()
@@ -19,7 +22,20 @@ public class AnimalsFeedProcessor
         Random random = new Random();
         foreach (var place in aviary)
         {
-            place.Feed(random.Next(1,100));
+            place.Feed(random.Next(1,30));
+        }
+    }
+    private void HandleFoodFinished(string feedName, AnimalPlace place)
+    {
+        Console.WriteLine($"{place.Name} finished eating {feedName}. Refilling...");
+    }
+    
+
+    public void Dispose()
+    {
+        foreach (var place in aviary)
+        {
+            place.FoodFinished -= HandleFoodFinished;
         }
     }
 }

@@ -1,0 +1,14 @@
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AnimalsFeeding\bin\Debug\net6.0\AnimalsFeeding.exe
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AnimalsFeeding\bin\Debug\net6.0\AnimalsFeeding.deps.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AnimalsFeeding\bin\Debug\net6.0\AnimalsFeeding.runtimeconfig.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AnimalsFeeding\bin\Debug\net6.0\AnimalsFeeding.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AnimalsFeeding\bin\Debug\net6.0\AnimalsFeeding.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AnimalsFeeding\obj\Debug\net6.0\AnimalsFeeding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AnimalsFeeding\obj\Debug\net6.0\AnimalsFeeding.AssemblyInfoInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AnimalsFeeding\obj\Debug\net6.0\AnimalsFeeding.AssemblyInfo.cs
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AnimalsFeeding\obj\Debug\net6.0\AnimalsFeeding.csproj.CoreCompileInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AnimalsFeeding\obj\Debug\net6.0\AnimalsFeeding.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AnimalsFeeding\obj\Debug\net6.0\refint\AnimalsFeeding.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AnimalsFeeding\obj\Debug\net6.0\AnimalsFeeding.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AnimalsFeeding\obj\Debug\net6.0\AnimalsFeeding.genruntimeconfig.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\AnimalsFeeding\obj\Debug\net6.0\ref\AnimalsFeeding.dll

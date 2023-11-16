@@ -1,0 +1,14 @@
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\FactorialProcessor\bin\Debug\net6.0\FactorialProcessor.exe
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\FactorialProcessor\bin\Debug\net6.0\FactorialProcessor.deps.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\FactorialProcessor\bin\Debug\net6.0\FactorialProcessor.runtimeconfig.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\FactorialProcessor\bin\Debug\net6.0\FactorialProcessor.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\FactorialProcessor\bin\Debug\net6.0\FactorialProcessor.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\FactorialProcessor\obj\Debug\net6.0\FactorialProcessor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\FactorialProcessor\obj\Debug\net6.0\FactorialProcessor.AssemblyInfoInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\FactorialProcessor\obj\Debug\net6.0\FactorialProcessor.AssemblyInfo.cs
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\FactorialProcessor\obj\Debug\net6.0\FactorialProcessor.csproj.CoreCompileInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\FactorialProcessor\obj\Debug\net6.0\FactorialProcessor.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\FactorialProcessor\obj\Debug\net6.0\refint\FactorialProcessor.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\FactorialProcessor\obj\Debug\net6.0\FactorialProcessor.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\FactorialProcessor\obj\Debug\net6.0\FactorialProcessor.genruntimeconfig.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\FactorialProcessor\obj\Debug\net6.0\ref\FactorialProcessor.dll

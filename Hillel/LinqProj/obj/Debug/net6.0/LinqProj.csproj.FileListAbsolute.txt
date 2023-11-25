@@ -1,0 +1,14 @@
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\LinqProj\bin\Debug\net6.0\LinqProj.exe
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\LinqProj\bin\Debug\net6.0\LinqProj.deps.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\LinqProj\bin\Debug\net6.0\LinqProj.runtimeconfig.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\LinqProj\bin\Debug\net6.0\LinqProj.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\LinqProj\bin\Debug\net6.0\LinqProj.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\LinqProj\obj\Debug\net6.0\LinqProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\LinqProj\obj\Debug\net6.0\LinqProj.AssemblyInfoInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\LinqProj\obj\Debug\net6.0\LinqProj.AssemblyInfo.cs
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\LinqProj\obj\Debug\net6.0\LinqProj.csproj.CoreCompileInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\LinqProj\obj\Debug\net6.0\LinqProj.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\LinqProj\obj\Debug\net6.0\refint\LinqProj.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\LinqProj\obj\Debug\net6.0\LinqProj.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\LinqProj\obj\Debug\net6.0\LinqProj.genruntimeconfig.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\LinqProj\obj\Debug\net6.0\ref\LinqProj.dll

@@ -1,0 +1,14 @@
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\RegistryFileLogging\bin\Debug\net6.0\RegistryFileLogging.exe
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\RegistryFileLogging\bin\Debug\net6.0\RegistryFileLogging.deps.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\RegistryFileLogging\bin\Debug\net6.0\RegistryFileLogging.runtimeconfig.json
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\RegistryFileLogging\bin\Debug\net6.0\RegistryFileLogging.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\RegistryFileLogging\bin\Debug\net6.0\RegistryFileLogging.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\RegistryFileLogging\obj\Debug\net6.0\RegistryFileLogging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\RegistryFileLogging\obj\Debug\net6.0\RegistryFileLogging.AssemblyInfoInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\RegistryFileLogging\obj\Debug\net6.0\RegistryFileLogging.AssemblyInfo.cs
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\RegistryFileLogging\obj\Debug\net6.0\RegistryFileLogging.csproj.CoreCompileInputs.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\RegistryFileLogging\obj\Debug\net6.0\RegistryFileLogging.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\RegistryFileLogging\obj\Debug\net6.0\refint\RegistryFileLogging.dll
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\RegistryFileLogging\obj\Debug\net6.0\RegistryFileLogging.pdb
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\RegistryFileLogging\obj\Debug\net6.0\RegistryFileLogging.genruntimeconfig.cache
+C:\Users\LocalAdmin\Desktop\Hillel\Hillel\RegistryFileLogging\obj\Debug\net6.0\ref\RegistryFileLogging.dll

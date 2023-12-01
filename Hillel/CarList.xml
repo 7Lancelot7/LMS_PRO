@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<carDealer>
+  <auto name="Toyota">
+    <number>AX0004AX</number>
+    <price>35</price>
+  </auto>
+  <auto name="BMW">
+    <number>KA7557KA</number>
+    <price>45</price>
+  </auto>
+  <auto name="Lexus">
+    <number>BH3040BH</number>
+    <price>55</price>
+  </auto>
+  <auto name="MB">
+    <number>LMSPRO</number>
+    <price>999</price>
+  </auto>
+</carDealer>

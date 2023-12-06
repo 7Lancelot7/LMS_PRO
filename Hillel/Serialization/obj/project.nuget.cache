@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4Vb+OKX3TF8aYYwqIhj/9ZyVewBypfQ7VUevtlCTpVrD402comHq4desH9c05PBsUlEcfDS+65QgtcWgF/pZfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\LMS_PRO\\Hillel\\Serialization\\Serialization.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LocalAdmin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

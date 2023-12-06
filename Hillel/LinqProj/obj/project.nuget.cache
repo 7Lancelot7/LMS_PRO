@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "oejM0fcLc5h1ZuC26LzgqMwE52Xd/3JO/IbFoRBrn481Of5NPxermqJZ7qFTqjPZ0EmZf5f7pi4mu9uPwlGwew==",
+  "dgSpecHash": "6muoNdqkORIZ3lPzCKGUqVgkcM8PPJgrqZ/xPpqfCE8TBP0ZcslADEoVtiiAffPuYNfKA0T+95b9pz1YuWMppw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\LinqProj\\LinqProj.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vrata\\Desktop\\hillel\\LMS_PRO\\Hillel\\LinqProj\\LinqProj.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

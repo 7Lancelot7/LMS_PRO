@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "JtL+rrw+lK+/QdlFyydP1ardOQWx744Aekcrk74i0O/lOD1VHBhttWvrP7fv8+d5KyZzJ9Vwxj2zyQ/1W+y3og==",
+  "dgSpecHash": "wC5TUHMHXvQJ8YHLCJ0FmcAETwMkdWkD+tklFKbk4Tre1uK8MRl5N5Ob62RUgbN/0S4fYWH3b4H4SinWzGkxww==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\MovieLibrary\\MovieLibrary.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vrata\\Desktop\\hillel\\LMS_PRO\\Hillel\\MovieLibrary\\MovieLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

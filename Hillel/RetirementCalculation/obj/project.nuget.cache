@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1EzTXF0FNfD0asyGLxcu9KwD85741kFpVpw7KkniPUpsYofIRbOc8aSioBPkxaWe/V4/nlygtTTMR7hm0AkpEQ==",
+  "dgSpecHash": "NglK1Vgn3givLye3jlGoa1vY627jv7aTRFPs/HwFjNESoy3BsPqWXvUW4B+YiLsjnDnH6Cgk2454RKrtMLHT2g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\RetirementCalculation\\RetirementCalculation.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vrata\\Desktop\\hillel\\LMS_PRO\\Hillel\\RetirementCalculation\\RetirementCalculation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

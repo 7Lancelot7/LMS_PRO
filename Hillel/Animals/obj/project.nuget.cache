@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rcf3BJDdKCUyKTmjhEQKO5x3HRxtTDLX3rM+vt0ZZUGZ3OEJvlGYFjfheSOiaeZ0/tCJLq7e9VigEuEv0SOULQ==",
+  "dgSpecHash": "39owkyqRX5W7pG5JGp4yRsn68X/WalR32g10lm7FW0LqJon37he7KnzOugSBRtUM01Oa9h3+MAdT0TgGkujA8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\Animals\\Animals.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vrata\\Desktop\\hillel\\LMS_PRO\\Hillel\\Animals\\Animals.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

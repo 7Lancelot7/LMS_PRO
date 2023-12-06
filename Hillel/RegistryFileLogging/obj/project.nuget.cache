@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "xX2YdkIVBn33D0bDfSyaNeQtuUm71qLHoSYC8m1faplmfpOu6d285Lojh+EakHUkHQiUtuk3Jq2jLq/tpDLPsQ==",
+  "dgSpecHash": "RAec5onFEojGB8G8oFIBu0a5oUGVKR1dyUdUz7YArw+P69u0mxXfpHnglUpgEHStl02AC49k91EgXQL5pG4vRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\Hillel\\RegistryFileLogging\\RegistryFileLogging.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\vrata\\Desktop\\hillel\\LMS_PRO\\Hillel\\RegistryFileLogging\\RegistryFileLogging.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\vrata\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

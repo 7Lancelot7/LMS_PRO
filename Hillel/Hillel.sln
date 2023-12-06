@@ -18,6 +18,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialProcessor", "FactorialProcessor\FactorialProcessor.csproj", "{316CCC07-1C1C-43B4-9F11-32AE0382FB94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XML", "XML\XML.csproj", "{0E059ED9-7E8B-4761-8D40-8F65BD3E0D63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistryFileLogging", "RegistryFileLogging\RegistryFileLogging.csproj", "{0201002D-F410-48DB-B9E0-325B27F49D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqProj", "LinqProj\LinqProj.csproj", "{8B88617C-D404-43B6-917E-5FB4244B5F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLibrary", "MovieLibrary\MovieLibrary.csproj", "{7BF415DA-815E-4DF5-B257-3BD9DD7B6624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieLibraryEF", "MovieLibraryEF\MovieLibraryEF.csproj", "{1546C75D-9CE9-4BF7-8CC1-DF4E2E7F7F36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,6 +70,26 @@ Global
 		{316CCC07-1C1C-43B4-9F11-32AE0382FB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{316CCC07-1C1C-43B4-9F11-32AE0382FB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{316CCC07-1C1C-43B4-9F11-32AE0382FB94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E059ED9-7E8B-4761-8D40-8F65BD3E0D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E059ED9-7E8B-4761-8D40-8F65BD3E0D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E059ED9-7E8B-4761-8D40-8F65BD3E0D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E059ED9-7E8B-4761-8D40-8F65BD3E0D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0201002D-F410-48DB-B9E0-325B27F49D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0201002D-F410-48DB-B9E0-325B27F49D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0201002D-F410-48DB-B9E0-325B27F49D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0201002D-F410-48DB-B9E0-325B27F49D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B88617C-D404-43B6-917E-5FB4244B5F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B88617C-D404-43B6-917E-5FB4244B5F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B88617C-D404-43B6-917E-5FB4244B5F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B88617C-D404-43B6-917E-5FB4244B5F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF415DA-815E-4DF5-B257-3BD9DD7B6624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF415DA-815E-4DF5-B257-3BD9DD7B6624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF415DA-815E-4DF5-B257-3BD9DD7B6624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF415DA-815E-4DF5-B257-3BD9DD7B6624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1546C75D-9CE9-4BF7-8CC1-DF4E2E7F7F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1546C75D-9CE9-4BF7-8CC1-DF4E2E7F7F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1546C75D-9CE9-4BF7-8CC1-DF4E2E7F7F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1546C75D-9CE9-4BF7-8CC1-DF4E2E7F7F36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection

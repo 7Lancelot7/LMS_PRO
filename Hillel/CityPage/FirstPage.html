@@ -1,10 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Місто Харків</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-$END$
+<h1>Місто Харків</h1>
+<div class="center">
+    <div class="image-wrapper">
+        <img src="kharkiv.jpg" alt="Фото Харкова">
+        <div class="image-caption">
+            <p>
+                <span class="red-text">Харків</span> – місто в Україні, культурний та науковий центр,
+                важливий транспортний вузол та історичний обласний центр Харківської області.
+            </p>
+        </div>
+    </div>
+</div>
+
+<ul>
+    <li><a href="https://kharkivoda.gov.ua/">Administration</a></li>
+    <li><a href="mailto:your-email@example.com">Електронна пошта</a></li>
+    <li><button id="showTimeButton" class="btn btn-primary" data-toggle="modal" data-target="#timeModal">What time is it?</button></li>
+</ul>
+
+<div class="modal fade" id="timeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Поточний час</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="currentTime">
+                <!-- Час буде відображено тут за допомогою JavaScript -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="scripts/script.js"></script>
 </body>
 </html>

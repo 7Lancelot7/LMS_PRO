@@ -1,0 +1,23 @@
+/* Центрування зображення та підпису */
+.image-wrapper {
+    text-align: center;
+}
+
+.image-caption {
+    margin-top: 10px;
+}
+
+/* Стилі для слова "Харків" */
+.red-text {
+    color: red;
+}
+
+/* Інші стилі тексту */
+.image-caption p {
+    color: black;
+}
+
+/* Стилі для модального вікна */
+.modal-body {
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+/* Стили для кнопок в таблице */
+.table-btn {
+    display: inline-block; /* Размещение кнопок в строке */
+    margin-right: 5px; /* Отступ между кнопками */
+    margin-bottom: 5px; /* Отступ снизу от строки */
+}
+
+/* Кнопка "Edit" */
+.btn-edit {
+    background-color: #6c757d; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+}
+
+/* Кнопка "Delete" */
+.btn-delete {
+    background-color: #dc3545; /* Красный цвет фона */
+    color: #fff; /* Белый цвет текста */
+}
+
+/* Кнопка "Back" */
+.btn-back {
+    background-color: #007bff; /* Синий цвет фона */
+    color: #fff; /* Белый цвет текста */
+}

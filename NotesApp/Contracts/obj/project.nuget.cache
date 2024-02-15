@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "i5itn71k/JPHWUZzgz8Kp8CgYTRj7/bFeOWD3Ws7ZXNc7Uk0uVtZWngcjZ8mN+5IpGT+pXD5sCwBgHHJBjOz/A==",
+  "success": true,
+  "projectFilePath": "C:\\TestWeb\\NotesApp\\Contracts\\Contracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LocalAdmin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\LocalAdmin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\LocalAdmin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

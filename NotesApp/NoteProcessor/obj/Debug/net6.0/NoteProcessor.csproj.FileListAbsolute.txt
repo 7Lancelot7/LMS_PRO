@@ -1,0 +1,15 @@
+C:\TestWeb\NotesApp\NoteProcessor\bin\Debug\net6.0\NoteProcessor.deps.json
+C:\TestWeb\NotesApp\NoteProcessor\bin\Debug\net6.0\NoteProcessor.dll
+C:\TestWeb\NotesApp\NoteProcessor\bin\Debug\net6.0\NoteProcessor.pdb
+C:\TestWeb\NotesApp\NoteProcessor\bin\Debug\net6.0\Contracts.dll
+C:\TestWeb\NotesApp\NoteProcessor\bin\Debug\net6.0\Contracts.pdb
+C:\TestWeb\NotesApp\NoteProcessor\obj\Debug\net6.0\NoteProcessor.csproj.AssemblyReference.cache
+C:\TestWeb\NotesApp\NoteProcessor\obj\Debug\net6.0\NoteProcessor.GeneratedMSBuildEditorConfig.editorconfig
+C:\TestWeb\NotesApp\NoteProcessor\obj\Debug\net6.0\NoteProcessor.AssemblyInfoInputs.cache
+C:\TestWeb\NotesApp\NoteProcessor\obj\Debug\net6.0\NoteProcessor.AssemblyInfo.cs
+C:\TestWeb\NotesApp\NoteProcessor\obj\Debug\net6.0\NoteProcessor.csproj.CoreCompileInputs.cache
+C:\TestWeb\NotesApp\NoteProcessor\obj\Debug\net6.0\NoteProcessor.csproj.CopyComplete
+C:\TestWeb\NotesApp\NoteProcessor\obj\Debug\net6.0\NoteProcessor.dll
+C:\TestWeb\NotesApp\NoteProcessor\obj\Debug\net6.0\refint\NoteProcessor.dll
+C:\TestWeb\NotesApp\NoteProcessor\obj\Debug\net6.0\NoteProcessor.pdb
+C:\TestWeb\NotesApp\NoteProcessor\obj\Debug\net6.0\ref\NoteProcessor.dll

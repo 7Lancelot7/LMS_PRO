@@ -1,0 +1,15 @@
+C:\TestWeb\NotesApp\NotesDAL\bin\Debug\net6.0\NotesDAL.deps.json
+C:\TestWeb\NotesApp\NotesDAL\bin\Debug\net6.0\NotesDAL.dll
+C:\TestWeb\NotesApp\NotesDAL\bin\Debug\net6.0\NotesDAL.pdb
+C:\TestWeb\NotesApp\NotesDAL\bin\Debug\net6.0\Contracts.dll
+C:\TestWeb\NotesApp\NotesDAL\bin\Debug\net6.0\Contracts.pdb
+C:\TestWeb\NotesApp\NotesDAL\obj\Debug\net6.0\NotesDAL.csproj.AssemblyReference.cache
+C:\TestWeb\NotesApp\NotesDAL\obj\Debug\net6.0\NotesDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\TestWeb\NotesApp\NotesDAL\obj\Debug\net6.0\NotesDAL.AssemblyInfoInputs.cache
+C:\TestWeb\NotesApp\NotesDAL\obj\Debug\net6.0\NotesDAL.AssemblyInfo.cs
+C:\TestWeb\NotesApp\NotesDAL\obj\Debug\net6.0\NotesDAL.csproj.CoreCompileInputs.cache
+C:\TestWeb\NotesApp\NotesDAL\obj\Debug\net6.0\NotesDAL.csproj.CopyComplete
+C:\TestWeb\NotesApp\NotesDAL\obj\Debug\net6.0\NotesDAL.dll
+C:\TestWeb\NotesApp\NotesDAL\obj\Debug\net6.0\refint\NotesDAL.dll
+C:\TestWeb\NotesApp\NotesDAL\obj\Debug\net6.0\NotesDAL.pdb
+C:\TestWeb\NotesApp\NotesDAL\obj\Debug\net6.0\ref\NotesDAL.dll

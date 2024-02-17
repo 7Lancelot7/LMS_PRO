@@ -8,16 +8,26 @@ public class NoteProcessorMockTests
     [Fact]
     public void GetAllTest()
     {
-        Mock<IRepository<Note>> mockRepository = new Mock<IRepository<Note>>();
-        NoteProcessors noteProcessors = new NoteProcessors(mockRepository.Object);
-        mockRepository.Setup(repo => repo.GetAll()).Returns(new List<Note>
+        IEnumerable<Note> notes = new List<Note>()
         {
             new Note { Id = Guid.NewGuid(), Name = "AAA", Priority = 1, Value = "To do list" },
             new Note { Id = Guid.NewGuid(), Name = "VVV", Priority = 1, Value = "Buy" },
             new Note { Id = Guid.NewGuid(), Name = "BBB", Priority = 2, Value = "Dont forget" },
             new Note { Id = Guid.NewGuid(), Name = "NNN", Priority = 5, Value = "Sunshine" }
-        });
+        };
+        var list =notes.OrderByDescending(priority => priority.Priority).ToList();
+        Mock<IRepository<Note>> mockRepository = new Mock<IRepository<Note>>();
+        NoteProcessors noteProcessors = new NoteProcessors(mockRepository.Object);
+        mockRepository.Setup(repo => repo.GetAll()).Returns(list);
         Assert.Equal(4, noteProcessors.GetAll().Count());
+        var notesFromNoteProcessor = noteProcessors.GetAll().ToList();
+        for (int i = 0; i < notes.Count(); i++)
+        {
+            Assert.Equal(list[i].Id,notesFromNoteProcessor[i].Id);
+            Assert.Equal(list[i].Name,notesFromNoteProcessor[i].Name);
+            Assert.Equal(list[i].Priority,notesFromNoteProcessor[i].Priority);
+            Assert.Equal(list[i].Value,notesFromNoteProcessor[i].Value);
+        }
     }
 
     [Fact]
@@ -118,9 +128,8 @@ public class NoteProcessorMockTests
         };
         Mock<IRepository<Note>> mockRepository = new Mock<IRepository<Note>>();
         NoteProcessors noteProcessors = new NoteProcessors(mockRepository.Object);
-        mockRepository.Setup(repo => repo.GetAll()).Returns(notes);
         mockRepository.Setup(repo => repo.Get(It.IsAny<Guid>()))
-            .Callback((Guid guidId) =>
+            .Returns((Guid guidId) =>
             {
                 var expectedNote = notes.FirstOrDefault(note => note.Id == guidId);
                 return expectedNote;

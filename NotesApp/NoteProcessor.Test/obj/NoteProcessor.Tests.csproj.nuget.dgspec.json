@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\NotesApp\\NoteProcessor.Test\\NoteProcessor.Test.csproj": {}
+    "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\NotesApp\\NoteProcessor.Tests\\NoteProcessor.Tests.csproj": {}
   },
   "projects": {
     "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\NotesApp\\Contracts\\Contracts.csproj": {
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\NotesApp\\NoteProcessor.Test\\NoteProcessor.Test.csproj": {
+    "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\NotesApp\\NoteProcessor.Tests\\NoteProcessor.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\NotesApp\\NoteProcessor.Test\\NoteProcessor.Test.csproj",
-        "projectName": "NoteProcessor.Test",
-        "projectPath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\NotesApp\\NoteProcessor.Test\\NoteProcessor.Test.csproj",
+        "projectUniqueName": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\NotesApp\\NoteProcessor.Tests\\NoteProcessor.Tests.csproj",
+        "projectName": "NoteProcessor.Tests",
+        "projectPath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\NotesApp\\NoteProcessor.Tests\\NoteProcessor.Tests.csproj",
         "packagesPath": "C:\\Users\\LocalAdmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\NotesApp\\NoteProcessor.Test\\obj\\",
+        "outputPath": "C:\\Users\\LocalAdmin\\Desktop\\Hillel\\NotesApp\\NoteProcessor.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
